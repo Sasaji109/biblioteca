@@ -1,11 +1,9 @@
 package com.biblioteca;
 
-import com.biblioteca.dao.config.ConexionDB;
 import com.biblioteca.model.Libro;
 import com.biblioteca.service.LibroService;
 import com.biblioteca.service.LibroServiceImpl;
 
-import java.sql.Connection;
 import java.util.List;
 
 public class Main {
