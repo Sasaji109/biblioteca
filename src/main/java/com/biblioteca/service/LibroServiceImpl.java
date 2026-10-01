@@ -2,17 +2,15 @@ package com.biblioteca.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.biblioteca.dao.LibroDAO;
-import com.biblioteca.dao.LibroDAOImpl;
 import com.biblioteca.model.Libro;
 
+@Service
 public class LibroServiceImpl implements LibroService {
     
     private LibroDAO dao;
-
-    public LibroServiceImpl() {
-        this.dao = new LibroDAOImpl();
-    }
 
     public LibroServiceImpl(LibroDAO dao) {
         this.dao = dao;

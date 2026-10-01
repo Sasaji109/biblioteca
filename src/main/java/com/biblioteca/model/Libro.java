@@ -8,6 +8,8 @@ public class Libro {
     private String isbn;
     private Integer anioPublicacion;
 
+    public Libro() {}
+
     public Libro(Long id, String titulo, String autor, String isbn, Integer anioPublicacion) {
         this.id = id;
         this.titulo = titulo;

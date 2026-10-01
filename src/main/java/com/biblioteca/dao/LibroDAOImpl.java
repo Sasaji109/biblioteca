@@ -3,6 +3,8 @@ package com.biblioteca.dao;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.biblioteca.dao.config.ConexionDB;
 import com.biblioteca.model.Libro;
 import java.sql.Connection;
@@ -11,6 +13,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+@Repository
 public class LibroDAOImpl implements LibroDAO {
 
     @Override
